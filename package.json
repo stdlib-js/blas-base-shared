@@ -3,8 +3,31 @@
   "version": "0.0.1",
   "description": "Common symbols and type definitions shared across base BLAS APIs.",
   "license": "Apache-2.0",
-  "type": "module",
-  "main": "./index.mjs",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "./lib",
+  "directories": {
+    "doc": "./docs",
+    "example": "./examples",
+    "include": "./include",
+    "lib": "./lib",
+    "src": "./src",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples"
+  },
   "homepage": "https://stdlib.io",
   "repository": {
     "type": "git",
@@ -13,6 +36,36 @@
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
+  "dependencies": {
+    "@stdlib/blas-base-diagonal-types": "github:stdlib-js/blas-base-diagonal-types#main",
+    "@stdlib/blas-base-layouts": "github:stdlib-js/blas-base-layouts#main",
+    "@stdlib/blas-base-matrix-triangles": "github:stdlib-js/blas-base-matrix-triangles#main",
+    "@stdlib/blas-base-operation-sides": "github:stdlib-js/blas-base-operation-sides#main",
+    "@stdlib/blas-base-transpose-operations": "github:stdlib-js/blas-base-transpose-operations#main",
+    "@stdlib/utils-library-manifest": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
+  },
+  "devDependencies": {
+    "@stdlib/assert-is-browser": "^0.2.1",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
   "keywords": [
     "stdlib",
     "standard",
@@ -25,6 +78,9 @@
     "shared",
     "common"
   ],
+  "__stdlib__": {
+    "wasm": false
+  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
