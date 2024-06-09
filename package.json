@@ -42,7 +42,8 @@
     "@stdlib/blas-base-matrix-triangles": "github:stdlib-js/blas-base-matrix-triangles#main",
     "@stdlib/blas-base-operation-sides": "github:stdlib-js/blas-base-operation-sides#main",
     "@stdlib/blas-base-transpose-operations": "github:stdlib-js/blas-base-transpose-operations#main",
-    "@stdlib/utils-library-manifest": "^0.2.1"
+    "@stdlib/utils-library-manifest": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.2.1",
