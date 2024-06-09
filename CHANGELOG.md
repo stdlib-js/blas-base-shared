@@ -6,12 +6,24 @@
 
 ## Unreleased (2024-06-09)
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`258cc06`](https://github.com/stdlib-js/stdlib/commit/258cc060947be206b283ff4d066953dcebb0143f) - assign enum values to CBLAS compatible aliases
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`73cf5f1`](https://github.com/stdlib-js/stdlib/commit/73cf5f1bb0dba7e320518e6b530a98004ef86aef) - **refactor:** assign enum values to CBLAS compatible aliases _(by Athan Reines)_
+-   [`258cc06`](https://github.com/stdlib-js/stdlib/commit/258cc060947be206b283ff4d066953dcebb0143f) - **fix:** assign enum values to CBLAS compatible aliases _(by Athan Reines)_
 -   [`c61cc17`](https://github.com/stdlib-js/stdlib/commit/c61cc17ca682a9dfe76246ab9dc852c0044c6cbf) - **refactor:** migrate to `blas/base/layouts` _(by Athan Reines)_
 -   [`faf0744`](https://github.com/stdlib-js/stdlib/commit/faf0744fe424cd9a2c58e7aa98368555c8601d5c) - **refactor:** use enum definition in `blas/base/orders` _(by Athan Reines)_
 
