@@ -33,6 +33,7 @@
 
 <details>
 
+-   [`5f085d1`](https://github.com/stdlib-js/stdlib/commit/5f085d146d57ff083c24068217adb597bd14b1c5) - **refactor:** use `blas/base/operation-sides` enum values _(by Athan Reines)_
 -   [`561f98e`](https://github.com/stdlib-js/stdlib/commit/561f98ec00a05cb582b78515c759939eeaec006a) - **fix:** update include path and fix typo _(by Athan Reines)_
 -   [`3ade07d`](https://github.com/stdlib-js/stdlib/commit/3ade07de914000d25c817fa4069d51b9eb5d2d77) - **refactor:** use `blas/base/diagonal-types` enum values _(by Athan Reines)_
 -   [`123f7f9`](https://github.com/stdlib-js/stdlib/commit/123f7f945a9154c7518c6c0837110e0712811b5f) - **feat:** add `blas/base/diagonal-types` _(by Athan Reines)_
