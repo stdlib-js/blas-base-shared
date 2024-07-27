@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-base-shared",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Common symbols and type definitions shared across base BLAS APIs.",
   "license": "Apache-2.0",
   "author": {
