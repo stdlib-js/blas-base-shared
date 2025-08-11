@@ -39,9 +39,9 @@
   "dependencies": {
     "@stdlib/blas-base-diagonal-types": "^0.0.2",
     "@stdlib/blas-base-layouts": "^0.0.2",
+    "@stdlib/blas-base-matrix-orientations": "github:stdlib-js/blas-base-matrix-orientations#main",
     "@stdlib/blas-base-matrix-triangles": "^0.0.2",
     "@stdlib/blas-base-operation-sides": "^0.0.2",
-    "@stdlib/blas-base-orientations": "github:stdlib-js/blas-base-orientations#main",
     "@stdlib/blas-base-transpose-operations": "^0.1.0",
     "@stdlib/utils-library-manifest": "^0.2.2"
   },

@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-12)
+## Unreleased (2025-08-11)
 
 <section class="features">
 
@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`2192700`](https://github.com/stdlib-js/stdlib/commit/21927004b3028a79326c41bd78e8dfe3d3044553) - update path
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`2192700`](https://github.com/stdlib-js/stdlib/commit/21927004b3028a79326c41bd78e8dfe3d3044553) - **fix:** update path _(by Athan Reines)_
 -   [`0bc0123`](https://github.com/stdlib-js/stdlib/commit/0bc0123a316f3efc9ce8a97a4de24a98a7ad2bb8) - **feat:** add `CBLAS_ORIENT` type definition _(by Athan Reines)_
 -   [`e3a09c9`](https://github.com/stdlib-js/stdlib/commit/e3a09c998fe7ac472456650abc0b4ea726037982) - **style:** use consistent indentation _(by Athan Reines)_
 
