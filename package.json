@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas-base-shared",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Common symbols and type definitions shared across base BLAS APIs.",
   "license": "Apache-2.0",
   "author": {
@@ -43,7 +43,7 @@
     "@stdlib/blas-base-matrix-triangles": "^0.0.2",
     "@stdlib/blas-base-operation-sides": "^0.0.2",
     "@stdlib/blas-base-transpose-operations": "^0.1.0",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.2.2",
@@ -78,9 +78,6 @@
     "shared",
     "common"
   ],
-  "__stdlib__": {
-    "wasm": false
-  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
